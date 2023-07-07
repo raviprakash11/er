@@ -1,0 +1,75 @@
+.SP {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+    padding-top: 40px;
+    .SPD {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .SPDmH {
+            font-size: 28px;
+            font-weight: 700;
+            color: #FFFFFF;
+            letter-spacing: .8px;
+        }
+        .SPDmB {
+            background-color: #FFF;
+            color: #19213D;
+            padding: 8px 22px;
+            border-radius: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            box-shadow: 1.4px 1.4px #000;
+            .SPDmBa {
+                font-size: 16px;
+                padding: 4.8px 0px 0px 6px;
+                -webkit-animation: upNdown 2s infinite linear;
+                animation: upNdown 2s infinite linear;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes upNdown {
+    0% { }
+    50% { transform: translate(-5px);}
+    100% {}
+}
+@keyframes upNdown {
+    0% { }
+    50% { transform: translate(-5px);}
+    100% {}  
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    /* background: #121212; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    background-color: #333e33 !important;
+}

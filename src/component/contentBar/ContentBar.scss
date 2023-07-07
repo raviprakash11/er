@@ -1,0 +1,17 @@
+.CBD {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(143,0,255, 0.08);
+    padding: 6vh 0vh;
+    border-radius: 0px 0px 0px 0px;
+    .CBDa {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        .CBDat {
+            font-size: 36px;
+            font-weight: 700;
+        }
+    }
+}

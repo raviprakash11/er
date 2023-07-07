@@ -1,0 +1,38 @@
+.FFMD {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+    .FMD {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .FMDer {
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            cursor: pointer;
+        }
+        .FMDa {
+            display: flex;
+            align-items: center;
+            gap: 1.8vw;
+            .FMDaa {
+                font-size: 16px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .FMDcm {
+            display: flex;
+            gap: 1.6vw;
+        }
+    }
+    .FMDf {
+        padding: 30px 0px;
+        font-size: 16px;       
+    }
+}

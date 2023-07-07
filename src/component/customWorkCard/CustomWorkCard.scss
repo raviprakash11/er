@@ -1,0 +1,31 @@
+.CWCD {
+    width: 78%;
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+    .CWCDi {
+        border-radius: 20px;
+        width: 560px;
+        height: 430px;
+        background-color: #90EE90;
+    }
+    .CWCDt {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .CWCDtH {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: .8px;
+        }
+        .CWCDtC {
+            padding: 18px 0px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}

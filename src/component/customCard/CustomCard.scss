@@ -1,0 +1,35 @@
+.CCD {
+    width: 600px;
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    background-color: #FFF;
+    border-radius: 20px;
+    .CCDi {
+        border-radius: 20px;
+        width: 310px;
+        height: 310px;
+    }
+    .CCDt {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        .CCDtH {
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: .8px;
+        }
+        .CCDtC {
+            padding: 10px 0px;
+            font-size: 14px;
+        }
+        .CCDtB {
+            font-size: 14px;
+            font-weight: 600;
+            color: #FDD128;
+            text-transform: uppercase;
+        }
+    }
+}
